@@ -4,6 +4,7 @@
   "description": "frontend simple transform use homogeneous coordinates",
   "main": "index.js",
   "scripts": {
+    "start": "npx vite ./",
     "test": "jest"
   },
   "repository": {

@@ -18,3 +18,17 @@ export function getMartixFromHtmlElement(htmlElement) {
         [0, 0 ,1]
     ];
 }
+
+export function pointMultiMartix(domation, point, martix) {
+    const resPoint = new Array(domation).fill(0);
+    for (let row = 0; row < domation; row ++) {
+        for (let martixRow = 0; martixRow < martix.length; martixRow++) {
+            resPoint += point[row] * martix[martixRow][row];
+        }
+    }
+    return resPoint;
+}
+
+export function martixMultiMartix() {
+
+}
